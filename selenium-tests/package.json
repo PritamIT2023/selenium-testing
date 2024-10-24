@@ -1,0 +1,18 @@
+{
+  "name": "selenium-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha checkuserexist_test.js --timeout 10000000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "latest",
+    "pixelmatch": "latest",
+    "pngjs": "latest"
+  }
+}
